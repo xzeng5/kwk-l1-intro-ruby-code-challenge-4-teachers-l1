@@ -20,20 +20,3 @@ end
 # To do so, I would probably need an array of 25, 10, 5, 1
 # Then, I'll use .each method to cycle through each element of the array
 # At the same time, the output will be sorted into a hash
-
-#draft
-quarters = []
-dimes = []
-nickels = []
-pennies = []
-if cents % 25 == 0
-  quarters << "cents/25"
-elsif cents % 10 == 0
-  dimes << "cents/10"
-elsif cents % 5 == 0
-  nickels << "cents/5"
-else
-
-array = [25, 10, 5, 1]
-array.each do |divisor|
-  quarter << cent/divisor
